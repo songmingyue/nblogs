@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Blacklisten
+title: Blacklisten'blogs
 subtitle:
 description: Blacklisten'blogs
 author: blacklisten
@@ -12,8 +12,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.zhangruipeng.me/hexo-theme-icarus/
-root: /hexo-theme-icarus/
+url: https://blacklisten.github.io/nblogs/
+root: /nblogs/
 permalink: :category/:post_title/
 permalink_defaults:
 
@@ -94,7 +94,7 @@ marked:
 githubEmojis:
   className: not-gallery-item
 
-algolia:
-  applicationID: T0CJF4ZB1O
-  apiKey: bcbeb94d417749ab5c65b082fce32333
-  indexName: hexo-icarus
+# algolia:
+#   applicationID: OHVE8OO7L9
+#   apiKey: c8beff3b64cc137d49a932050657974c
+#   indexName: hexo-icarus

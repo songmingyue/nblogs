@@ -8,7 +8,7 @@ logo:
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: ./img/img/own_favicon.svg
+    favicon: /img/favicon.svg
     # Open Graph metadata
     # https://hexo.io/docs/helpers.html#open-graph
     open_graph:
@@ -96,7 +96,7 @@ article:
     highlight:
         # Code highlight themes
         # https://github.com/highlightjs/highlight.js/tree/master/src/styles
-        theme: atom-one-light
+        theme: github
         # Show copy code button
         clipboard: true
         # Default folding status of the code blocks. Can be "", "folded", "unfolded"
@@ -115,7 +115,14 @@ search:
     type: insight
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
-# comment:
+comment:
+    type: disqusjs
+    shortname: blacklisten
+    api_key: exTu1A9AwH0nVWvvCmSVh7H8HoTp4RUkld2NgMecCw2aYahA3g7iDtzNCxP7Quug
+    api: https://disqus.skk.moe/disqus/     # 可选填
+    admin: blacklisten                         # 可选填
+    admin_label: Admin                      # 可选填
+    nesting: 4                              # 可选填
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 # donates:
@@ -178,7 +185,7 @@ widgets:
         # Author's current location
         location: ShangHai
         # URL or path to the avatar image
-        avatar: /img/avatar.jpg
+        avatar: /img/avatar.png
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar
@@ -192,10 +199,10 @@ widgets:
                 url: 'https://github.com/blacklisten'
             Facebook:
                 icon: fab fa-facebook
-                url: 'https://facebook.com'
+                url: 'https://facebook.com/people/%E8%A2%81%E5%98%89%E6%99%A8/100024950512488'
             Twitter:
                 icon: fab fa-twitter
-                url: 'https://twitter.com'
+                url: 'https://twitter.com/Black_listen'
             RSS:
                 icon: fas fa-rss
                 url: /
@@ -211,8 +218,8 @@ widgets:
         type: links
         # Names and URLs of the sites
         links:
-            Hexo: 'https://hexo.io'
-            Bulma: 'https://bulma.io'
+            va-decorator: 'https://github.com/vaopen/va-decorator'
+            va-eventTrack: 'https://github.com/vaopen/va-eventTrack'
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar

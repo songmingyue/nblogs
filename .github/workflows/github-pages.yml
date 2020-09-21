@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
       - run: npm install
-      - run: npx hexo algolia
+      # - run: npx hexo algolia
         env:
           HEXO_ALGOLIA_INDEXING_KEY: ${{ secrets.HEXO_ALGOLIA_INDEXING_KEY }}
       - run: NODE_ENV=production npx hexo g

@@ -24,7 +24,7 @@ widgets:
         # Author's current location
         location: ShangHai
         # URL or path to the avatar image
-        avatar: /img/avatar.jpg
+        avatar: /img/avatar.png
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar
@@ -38,10 +38,10 @@ widgets:
                 url: 'https://github.com/blacklisten'
             Facebook:
                 icon: fab fa-facebook
-                url: 'https://facebook.com'
+                url: 'https://facebook.com/people/%E8%A2%81%E5%98%89%E6%99%A8/100024950512488'
             Twitter:
                 icon: fab fa-twitter
-                url: 'https://twitter.com'
+                url: 'https://twitter.com/Black_listen'
             RSS:
                 icon: fas fa-rss
                 url: /

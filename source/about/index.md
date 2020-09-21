@@ -1,171 +1,59 @@
 title:
 toc: true
 ---
-<p align="center" class="mb-2">
-<img class="not-gallery-item" style="height:48px" src="https://ppoffice.github.io/hexo-theme-icarus/img/logo.svg">
-<br> A simple, delicate, and modern theme for the static site generator Hexo.
-<br>
-<a href="https://ppoffice.github.io/hexo-theme-icarus/">Preview</a> |
-<a href="https://ppoffice.github.io/hexo-theme-icarus/categories/">Documentation</a> |
-<a href="https://gitter.im/hexo-theme-icarus/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge">Chat on Gitter</a>
-</p>
+<p align="center" style="border-radius: 50%;"><img src="/nblogs/img/avatar.png" alt="blacklisten" height=200 width=200></p>
+<!-- <p align="center">
+  <a href="https://github.com/SigureMo" class="zi zi_tmGithub"></a>
+  <a href="mailto:sigure_mo@163.com" class="zi zi_envelope"></a> 
+  <a href="tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=240377379&website=www.oicqzone.com" class="zi zi_tmQq"></a>
+</p> -->
 
-![](https://ppoffice.github.io/hexo-theme-icarus/gallery/preview.png?1 "Icarus Preview")
+简介: 喜欢搞事情的年轻人
 
-## :cd: Installation
+姓名：black_chen(我是不会暴漏我的真实姓名的)
 
-```shell
-$ npm install hexo-theme-icarus
-$ hexo config theme icarus
-```
+年龄：大好青年
 
-Please refer to [Getting Started with Icarus](https://ppoffice.github.io/hexo-theme-icarus/uncategorized/getting-started-with-icarus/) 
-for more details.
+爱好：王者农药、、、游山玩水，电子设备...
 
-## :gift: Features
+联系我：QQ. 756319278 weChat. black_listen
 
-### Cyberpunk Theme Variant
+**放一首诗**
 
-Tap into the future cyber world with the newly added Cyberpunk theme variant.
-Inspired by [Cyberpunk 2077](https://www.cyberpunk.net).
+我说你是人间的四月天；
 
-![Icarus Cyberpunk](https://ppoffice.github.io/hexo-theme-icarus/gallery/screenshots/cyberpunk.png "Icarus Cyberpunk")
+笑响点亮了四面风；轻灵
 
-### Extensive Plugin Support
+在春的光艳中交舞着变。
 
-Icarus includes plentiful search, comment, sharing and other plugins out of the box that makes your
-blog feature-rich and powerful.
+你是四月早天里的云烟，
 
-**[Comment](https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/)**
+黄昏吹着风的软，星子在
 
-Changyan &middot; Disqus &middot; DisqusJS &middot; Facebook &middot; Gitalk &middot; Gitment &middot;
-Isso &middot; LiveRe &middot; Utterance &middot; Valine
+无意中闪，细雨点洒在花前。
 
-**[Donate Button](https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/)**
+那轻，那娉婷你是，鲜妍
 
-Afdian.net &middot; Alipay &middot; Buy me a coffee &middot; Patreon &middot; Paypal &middot; Wecat
+百花的冠冕你戴着，你是
 
-**[Search](https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Search/)**
+天真，庄严，你是夜夜的月圆。
 
-Algolia &middot; Baidu &middot; Google CSE &middot; Insight
+雪化后那篇鹅黄，你象；新鲜
 
-**[Share](https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/)**
+初放芽的绿，你是；柔嫩喜悦
 
-AddThis &middot; AddToAny &middot; Baidu Share &middot; Share.js &middot; ShareThis
+水光浮动着你梦期待中白莲。
 
-**[Widgets](https://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/)**
+你是一树一树的花开，是燕
 
-Google Adsense &middot; Archives &middot; Categories &middot; External Site Links &middot; 
-Recent Posts &middot; Google Feedburner &middot; Tags &middot; Table of Contents
+在梁间呢喃，——你是爱，是暖，
 
-**[Analytics](https://ppoffice.github.io/hexo-theme-icarus/Plugins/Analytics/icarus-user-guide-web-analytics-plugins/)**
+是希望，你是人间的四月天！
 
-Baidu Statistics &middot; BuSuanZi Web Counter &middot; CNZZ Statistics &middot; Google Analytics &middot; 
-Hotjar
-
-**[Other Plugins](https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/)**
-
-LightGallery &middot; Justified Gallery &middot; KaTeX &middot; MathJax &middot; Oudated Browser &middot;
-Page Loading Animations
-
-### Colorful Code Highlight
-
-Icarus directly import stylesheets from the [highlight.js](https://highlightjs.org/) package and makes more than
-90 code highlight themes available to you.
-
-<table>
-    <tr>
-        <th>Atom One Light</th>
-        <th>Monokai</th>
-        <th>Kimbie Dark</th>
-    </tr>
-    <tr>
-        <td><img width="266" src="https://ppoffice.github.io/hexo-theme-icarus/gallery/code-highlight/atom-one-light.png?2"></td>
-        <td><img width="266" src="https://ppoffice.github.io/hexo-theme-icarus/gallery/code-highlight/monokai.png?2"></td>
-        <td><img width="266" src="https://ppoffice.github.io/hexo-theme-icarus/gallery/code-highlight/kimbie-dark.png?2"></td>
-    </tr>
-</table>
-
-### Flexible Theme Configuration
-
-Icarus allows you to configure your site on a per-page or per-layout basis.
-
-<div class="table-overflow">
-<table>
-<tr>
-<td style="border: 0;">
-<img style="width: 256px; min-width: 256px" src="https://ppoffice.github.io/hexo-theme-icarus/gallery/screenshots/default-config.png">
-</td>
-<td style="border: 0;">
-<div style="margin: -1em 0">
-{% codeblock lang:yaml _config.icarus.yml %}
-widgets:
-  - type: profile
-    position: left
-  - type: recent_posts
-    position: right
-{% endcodeblock %}
+<article class="message message-immersive is-warning">
+<div class="message-body">
+<i class="fas fa-question-circle mr-2"></i>Something wrong with this article? 
+Click <a href="https://github.com/blacklisten/nblogs/edit/site/source/_posts/2020/Git-Operating-Guide.md">here</a> 
+to submit your revision.
 </div>
-</td>
-</tr>
-<tr>
-<td style="border: 0;">
-<img style="width: 256px; min-width: 256px" src="https://ppoffice.github.io/hexo-theme-icarus/gallery/screenshots/post-config.png">
-</td>
-<td style="border: 0;">
-<div style="margin: -1em 0">
-{% codeblock lang:yaml post.md %}
-widgets:
-  - type: profile
-    position: left
-  - type: recent_posts
-    position: left
-{% endcodeblock %}
-</div>
-</td>
-</tr>
-<tr>
-<td style="border: 0;">
-<img style="width: 256px; min-width: 256px" src="https://ppoffice.github.io/hexo-theme-icarus/gallery/screenshots/layout-config.png">
-</td>
-<td style="border: 0;">
-<div style="margin: -1em 0">
-{% codeblock lang:yaml _config.page.yml %}
-widgets: null
-{% endcodeblock %}
-</div>
-</td>
-</tr>
-</table>
-</div>
-
-### Responsive Layout
-
-Give your audiences best viewing experience with Icarus's mobile-friendly responsive layout.
-
-![Responsive Layout](https://ppoffice.github.io/hexo-theme-icarus/gallery/responsive.png)
-
-## :hammer: Development
-
-This project is built with
-
-- [Hexo](https://hexo.io/)
-- [Inferno.js](https://infernojs.org/)
-- [Stylus](https://stylus-lang.com/)
-- [Bulma](https://bulma.io/)
-
-Please refer to the [documentation](https://ppoffice.github.io/hexo-theme-icarus/categories/) and 
-[contributing guide](https://github.com/ppoffice/hexo-theme-icarus/blob/master/CONTRIBUTING.md) for implementation details.
-
-## :tada: Contribute
-
-If you feel like to help us build a better Icarus, you can
-
-:black_nib: [Submit a tutorial](https://github.com/ppoffice/hexo-theme-icarus/new/site/source/_posts) |
-:earth_asia: [Add a translation](https://github.com/ppoffice/hexo-theme-icarus/tree/master/languages) |
-:triangular_flag_on_post: [Report a bug](https://github.com/ppoffice/hexo-theme-icarus/issues/new) |
-:electric_plug: [Suggest a new feature](https://github.com/ppoffice/hexo-theme-icarus/pulls)
-
-## :memo: License
-
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/ppoffice/hexo-theme-icarus/blob/master/LICENSE) file for details.
+</article>
