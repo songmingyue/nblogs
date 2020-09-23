@@ -1,9 +1,10 @@
 title: Icarus指南
 date: 2020-09-22
 tags:
+- Hexo-Theme
 - Icarus指南
 categories:
-- HexoTheme
+- Hexo
 language: zh-CN
 toc: true
 providers:
