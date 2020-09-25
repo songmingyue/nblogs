@@ -4,6 +4,8 @@ version: 4.0.0
 variant: default
 # Path or URL to the website's logo
 logo: 
+    # light: /img/logo.svg
+    # dark: /img/logo_b_2.jpg
     text: Blacklisten
 # Page metadata configurations
 head:

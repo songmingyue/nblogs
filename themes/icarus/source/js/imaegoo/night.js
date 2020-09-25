@@ -9,9 +9,15 @@
   function applyNight(value) {
       if (value.toString() === 'true') {
           document.body.classList.add('night');
+          if (document.querySelector('.canvas-snow')) {
+              document.querySelector('.canvas-snow').setAttribute('style', 'display: none');
+          }
       } else {
           document.body.classList.remove('night');
-      }
+          if (document.querySelector('.canvas-snow')) {
+              document.querySelector('.canvas-snow').setAttribute('style', 'display: block');
+          }
+     }
   }
 
   function findNightNav() {

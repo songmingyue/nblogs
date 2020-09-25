@@ -21,7 +21,10 @@ class Footer extends Component {
             if (logo.text) {
                 footerLogo = logo.text;
             } else {
-                footerLogo = <img src={logoUrl} alt={siteTitle} height="28" />;
+                footerLogo = [
+                    <img class="logo-img" src={logoLightUrl} alt={siteTitle} height="28" />,
+                    <img class="logo-img-dark" src={logoDarkUrl} alt={siteTitle} height="28" />
+                ]
             }
         } else {
             footerLogo = siteTitle;
