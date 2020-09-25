@@ -15,7 +15,7 @@ cover: /gallery/covers/nrm.svg
 thumbnail: /gallery/covers/nrm.svg
 ---
 
-在我们使用`nodejs`进行安包时，常常使用淘宝镜像*https://registry.npm.taobao.org/*，也是是`cnpm`源。
+在我们使用`nodejs`进行安包时，常常使用淘宝镜像 *https://registry.npm.taobao.org/* ，也是是`cnpm`源。
 `nodejs`默认使用`npm`源，`npm`源在下载一些国外资源是速度比较慢，这个时候我们会考虑使用`npm config`全局配置`cnpm`源。
 但由于我们有时候会有一些`package`放在自己的`npm`私服上面，我们可能需要在`npm cnpm 自己的npm`源上面来回切换，这个时候我们使用`npm config`进行全局配置就略显麻烦了。所以我们使用[nrm](https://github.com/Pana/nrm)进行`npm`源的管理。
 

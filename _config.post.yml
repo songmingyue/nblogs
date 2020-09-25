@@ -8,49 +8,52 @@ sidebar:
     # Right sidebar configurations
     right:
         # Whether the sidebar sticks to the top when page scrolls
-        sticky: false
+        sticky: true
 # Sidebar widget configurations
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
 widgets:
     # Profile widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: profile
-        # Author name
-        author: blacklisten
-        # Author title
-        author_title: Web Developer
-        # Author's current location
-        location: ShangHai
-        # URL or path to the avatar image
-        avatar: /img/avatar.png
-        # Whether show the rounded avatar image
-        avatar_rounded: false
-        # Email address for the Gravatar
-        gravatar: 
-        # URL or path for the follow button
-        follow_link: 'https://github.com/blacklisten'
-        # Links to be shown on the bottom of the profile widget
-        social_links:
-            Github:
-                icon: fab fa-github
-                url: 'https://github.com/blacklisten'
-            Facebook:
-                icon: fab fa-facebook
-                url: 'https://facebook.com/people/%E8%A2%81%E5%98%89%E6%99%A8/100024950512488'
-            Twitter:
-                icon: fab fa-twitter
-                url: 'https://twitter.com/Black_listen'
-            RSS:
-                icon: fas fa-rss
-                url: /
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: left
+    #     type: profile
+    #     # Author name
+    #     author: blacklisten
+    #     # Author title
+    #     author_title: Web Developer
+    #     # Author's current location
+    #     location: ShangHai
+    #     # URL or path to the avatar image
+    #     avatar: /img/avatar.png
+    #     # Whether show the rounded avatar image
+    #     avatar_rounded: false
+    #     # Email address for the Gravatar
+    #     gravatar: 
+    #     # URL or path for the follow button
+    #     follow_link: 'https://github.com/blacklisten'
+    #     # Links to be shown on the bottom of the profile widget
+    #     social_links:
+    #         Github:
+    #             icon: fab fa-github
+    #             url: 'https://github.com/blacklisten'
+    #         Facebook:
+    #             icon: fab fa-facebook
+    #             url: 'https://facebook.com/people/%E8%A2%81%E5%98%89%E6%99%A8/100024950512488'
+    #         Twitter:
+    #             icon: fab fa-twitter
+    #             url: 'https://twitter.com/Black_listen'
+    #         RSS:
+    #             icon: fas fa-rss
+    #             url: /
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: toc
     # Categories widget configurations
+    - 
+        position: left
+        type: recent_posts
     -
         # Where should the widget be placed, left sidebar or right sidebar
         position: left

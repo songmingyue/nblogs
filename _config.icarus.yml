@@ -125,12 +125,12 @@ comment:
     nesting: 4                              # 可选填
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
-# donates:
+donates:
 #     # Alipay donate button configurations
-#     -
-#         type: alipay
+    -
+        type: alipay
 #         # Alipay qrcode image URL
-#         qrcode: ''
+        qrcode: /img/alipay.jpg
 #     # "Buy me a coffee" donate button configurations
 #     -
 #         type: buymeacoffee
@@ -149,16 +149,16 @@ comment:
 #         # Currency code
 #         currency_code: USD
 #     # Wechat donate button configurations
-#     -
-#         type: wechat
+    -
+        type: wechat
 #         # Wechat qrcode image URL
-#         qrcode: ''
+        qrcode: /img/wechat.jpg
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 share:
-    type: sharethis
-    # URL to the ShareThis share plugin script
-    install_url: //platform-api.sharethis.com/js/sharethis.js#property=5ab6f60ace89f00013641890&product=inline-share-buttons
+    type: sharejs
+    # URL to the ShareThis share plugin script //platform-api.sharethis.com/js/sharethis.js#property=5ab6f60ace89f00013641890&product=inline-share-buttons
+    install_url: ''
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
@@ -169,7 +169,7 @@ sidebar:
     # Right sidebar configurations
     right:
         # Whether the sidebar sticks to the top when page scrolls
-        sticky: false
+        sticky: true
 # Sidebar widget configurations
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
 widgets:
@@ -187,7 +187,7 @@ widgets:
         # URL or path to the avatar image
         avatar: /img/avatar.png
         # Whether show the rounded avatar image
-        avatar_rounded: false
+        avatar_rounded: true
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
@@ -209,7 +209,7 @@ widgets:
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: toc
     # Recommendation links widget configurations
     -
@@ -269,10 +269,10 @@ plugins:
     # https://tongji.baidu.com
     baidu_analytics:
         # Baidu Analytics tracking ID
-        tracking_id: 
+        tracking_id: 68ab0f2c8b23735e70a585f85d89b4d3
     # BuSuanZi site/page view counter
     # https://busuanzi.ibruce.info
-    busuanzi: false
+    busuanzi: true
     # CNZZ statistics
     # https://www.umeng.com/web
     cnzz:
@@ -287,7 +287,7 @@ plugins:
     # https://analytics.google.com
     google_analytics:
         # Google Analytics tracking ID
-        tracking_id: UA-72437521-5
+        tracking_id: UA-117852294-3
     # Hotjar user feedback plugin
     # https://www.hotjar.com/
     hotjar:

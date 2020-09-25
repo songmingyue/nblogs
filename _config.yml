@@ -98,3 +98,9 @@ githubEmojis:
 #   applicationID: OHVE8OO7L9
 #   apiKey: c8beff3b64cc137d49a932050657974c
 #   indexName: hexo-icarus
+
+# 自动生成sitemap
+sitemap:
+  path: sitemap.xml
+# baidusitemap:
+#   path: baidusitemap.xml
